@@ -1,0 +1,29 @@
+.textOverFlowContainer {
+  max-height: 40px;
+  line-height: 20px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.textOverFlowContainer > .before {
+  float: left;
+  width: 20px;
+  height: 40px;
+}
+
+.textOverFlowContainer > .text {
+  float: right;
+  width: 100%;
+  margin-left: -20px;
+  word-break: break-all;
+}
+
+.textOverFlowContainer > .after {
+  float: right;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 100%;
+  transform: translate(-100%, -100%);
+  background-color: #fff;
+}
