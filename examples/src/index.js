@@ -1,7 +1,7 @@
 import React from 'react';
 import { render} from 'react-dom';
-import MyComponent from '../../lib';
+import OverFlowDsl from '../../src';
 const App = () => (
- <MyComponent />
+ <OverFlowDsl>1231</OverFlowDsl>
 );
 render(<App />, document.getElementById("root"));
