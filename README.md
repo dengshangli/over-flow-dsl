@@ -30,6 +30,6 @@ export default App;
 属性 | 说明 | 类型 | 默认值
 ---|---|---|---
 row | 超过多少行显示省略 | number | 1
-lineHight | 文字的行高 | number | 20
+lineHight | 文字的行高，默认单位px | number | 20
 backgroundColor | 文字背景色 | string | #fff
 
